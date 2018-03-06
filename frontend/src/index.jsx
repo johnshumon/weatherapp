@@ -19,7 +19,7 @@ class Weather extends React.Component {
     super(props);
 
     this.state = {
-      icon: "",
+      icon: '',
     };
   }
 
@@ -33,7 +33,7 @@ class Weather extends React.Component {
 
     return (
       <div className="icon">
-        { icon && <img src={`/img/${icon}.svg`} /> }
+        { icon && <img alt="" src={`/img/${icon}.svg`} /> }
       </div>
     );
   }
