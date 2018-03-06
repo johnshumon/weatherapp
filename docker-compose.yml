@@ -19,7 +19,7 @@ services:
     env_file:
       - frontend.env
     volumes:
-          - $PWD/frontend:/weatherapp/frontend
+      - $PWD/frontend:/weatherapp/frontend
     networks:
       - network
 
