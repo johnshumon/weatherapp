@@ -93,7 +93,7 @@ class Weather extends React.Component {
                             Temperature: {item.main.temp} <br />
                             Min temperature: {item.main.temp_min} <br />
                             Max temperature: {item.main.temp_max}<br />
-                            Humidity: {item.main.humidity}
+                            Humidity: {item.main.humidity} <br />
                             Wind speed: {item.wind.speed}
                           </td>
                           <td>
